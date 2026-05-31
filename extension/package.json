@@ -1,0 +1,23 @@
+{
+  "name": "job-authenticity-agent-extension",
+  "version": "1.0.0",
+  "description": "Chrome Extension for the Job Authenticity Agent",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && node copy-manifest.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.246",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
